@@ -46,7 +46,7 @@ function Product() {
           <h6>{product.title}</h6>
           <h5>Rs {product.price * 100}</h5>
           <button className="btn" onClick={() => addToCart(product)}>
-            Add to card
+            Add to cart
           </button>
         </div>
       ))}
